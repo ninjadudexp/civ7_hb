@@ -1,0 +1,90 @@
+{
+  "generatedFrom": "192.168.103.215-relocate-20261103-080249.json",
+  "note": "sdkOffset is relative to sdk_base; exact byte matches only.",
+  "functions": [
+    {
+      "name": "close",
+      "sdkOffset": 1477604,
+      "kind": "exact",
+      "purpose": "handle close wrapper"
+    },
+    {
+      "name": "current",
+      "sdkOffset": 1273936,
+      "kind": "exact",
+      "purpose": "current thread identity"
+    },
+    {
+      "name": "finalize",
+      "sdkOffset": 1254672,
+      "kind": "exact",
+      "purpose": "event finalize"
+    },
+    {
+      "name": "frequency",
+      "sdkOffset": 1274480,
+      "kind": "exact",
+      "purpose": "tick frequency"
+    },
+    {
+      "name": "getService",
+      "sdkOffset": 1363088,
+      "kind": "exact",
+      "purpose": "SDK service-manager client (GetService through a stolen SM handle)"
+    },
+    {
+      "name": "initialize",
+      "sdkOffset": 1254624,
+      "kind": "exact",
+      "purpose": "event initialize"
+    },
+    {
+      "name": "loadTable",
+      "sdkOffset": 319636,
+      "kind": "exact",
+      "purpose": "SDK call-table indirection"
+    },
+    {
+      "name": "priority",
+      "sdkOffset": 1274048,
+      "kind": "exact",
+      "purpose": "thread priority"
+    },
+    {
+      "name": "saveResult",
+      "sdkOffset": 2673024,
+      "kind": "exact",
+      "purpose": "SDK call result store"
+    },
+    {
+      "name": "saveResult64",
+      "sdkOffset": 1686720,
+      "kind": "exact",
+      "purpose": "SDK call result store"
+    },
+    {
+      "name": "send",
+      "sdkOffset": 1477716,
+      "kind": "exact",
+      "purpose": "synchronous IPC send wrapper"
+    },
+    {
+      "name": "signalAddress",
+      "sdkOffset": 1477924,
+      "kind": "exact",
+      "purpose": "resolved svc signal wrapper"
+    },
+    {
+      "name": "tick",
+      "sdkOffset": 1274432,
+      "kind": "exact",
+      "purpose": "native tick counter for wave spacing"
+    },
+    {
+      "name": "waitAddress",
+      "sdkOffset": 1477916,
+      "kind": "exact",
+      "purpose": "resolved svc wait wrapper"
+    }
+  ]
+}

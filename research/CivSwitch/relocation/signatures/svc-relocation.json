@@ -1,0 +1,487 @@
+{
+  "generatedFrom": "runs/192.168.103.215-svctable-20261103-080233.bin",
+  "sdkBaseAtCapture": "0x758dca4000",
+  "note": "entryOffset is relative to sdk_base; ASLR-independent, build-specific. Decode with host/analyze_svc.py --ref <sdk-base>.",
+  "entries": [
+    {
+      "imm": 1,
+      "immHex": "0x01",
+      "entryOffset": 1477332,
+      "svcOffset": 1477336,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 2,
+      "immHex": "0x02",
+      "entryOffset": 1477356,
+      "svcOffset": 1477356,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 3,
+      "immHex": "0x03",
+      "entryOffset": 1477364,
+      "svcOffset": 1477364,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 4,
+      "immHex": "0x04",
+      "entryOffset": 1477372,
+      "svcOffset": 1477372,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 5,
+      "immHex": "0x05",
+      "entryOffset": 1477380,
+      "svcOffset": 1477380,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 6,
+      "immHex": "0x06",
+      "entryOffset": 1477388,
+      "svcOffset": 1477392,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 7,
+      "immHex": "0x07",
+      "entryOffset": 1477412,
+      "svcOffset": 1477412,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 8,
+      "immHex": "0x08",
+      "entryOffset": 1477420,
+      "svcOffset": 1477424,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 9,
+      "immHex": "0x09",
+      "entryOffset": 1477444,
+      "svcOffset": 1477444,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 10,
+      "immHex": "0x0a",
+      "entryOffset": 1477452,
+      "svcOffset": 1477452,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 11,
+      "immHex": "0x0b",
+      "entryOffset": 1477460,
+      "svcOffset": 1477460,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 12,
+      "immHex": "0x0c",
+      "entryOffset": 1477468,
+      "svcOffset": 1477472,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 13,
+      "immHex": "0x0d",
+      "entryOffset": 1477492,
+      "svcOffset": 1477492,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 14,
+      "immHex": "0x0e",
+      "entryOffset": 1477500,
+      "svcOffset": 1477504,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 15,
+      "immHex": "0x0f",
+      "entryOffset": 1477532,
+      "svcOffset": 1477532,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 16,
+      "immHex": "0x10",
+      "entryOffset": 1477540,
+      "svcOffset": 1477540,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 17,
+      "immHex": "0x11",
+      "entryOffset": 1477548,
+      "svcOffset": 1477548,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 18,
+      "immHex": "0x12",
+      "entryOffset": 1477556,
+      "svcOffset": 1477556,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 19,
+      "immHex": "0x13",
+      "entryOffset": 1477564,
+      "svcOffset": 1477564,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 20,
+      "immHex": "0x14",
+      "entryOffset": 1477572,
+      "svcOffset": 1477572,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 21,
+      "immHex": "0x15",
+      "entryOffset": 1477580,
+      "svcOffset": 1477584,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 22,
+      "immHex": "0x16",
+      "entryOffset": 1477604,
+      "svcOffset": 1477604,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 23,
+      "immHex": "0x17",
+      "entryOffset": 1477612,
+      "svcOffset": 1477612,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 24,
+      "immHex": "0x18",
+      "entryOffset": 1477620,
+      "svcOffset": 1477624,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 25,
+      "immHex": "0x19",
+      "entryOffset": 1477644,
+      "svcOffset": 1477644,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 26,
+      "immHex": "0x1a",
+      "entryOffset": 1477652,
+      "svcOffset": 1477652,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 27,
+      "immHex": "0x1b",
+      "entryOffset": 1477660,
+      "svcOffset": 1477660,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 28,
+      "immHex": "0x1c",
+      "entryOffset": 1477668,
+      "svcOffset": 1477668,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 29,
+      "immHex": "0x1d",
+      "entryOffset": 1477676,
+      "svcOffset": 1477676,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 31,
+      "immHex": "0x1f",
+      "entryOffset": 1477684,
+      "svcOffset": 1477688,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 33,
+      "immHex": "0x21",
+      "entryOffset": 1477708,
+      "svcOffset": 1477708,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 34,
+      "immHex": "0x22",
+      "entryOffset": 1477716,
+      "svcOffset": 1477716,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 35,
+      "immHex": "0x23",
+      "entryOffset": 1477724,
+      "svcOffset": 1477728,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 37,
+      "immHex": "0x25",
+      "entryOffset": 1477748,
+      "svcOffset": 1477752,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 38,
+      "immHex": "0x26",
+      "entryOffset": 1477772,
+      "svcOffset": 1477772,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 39,
+      "immHex": "0x27",
+      "entryOffset": 1477780,
+      "svcOffset": 1477780,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 40,
+      "immHex": "0x28",
+      "entryOffset": 1477788,
+      "svcOffset": 1477788,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 41,
+      "immHex": "0x29",
+      "entryOffset": 1477796,
+      "svcOffset": 1477800,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 42,
+      "immHex": "0x2a",
+      "entryOffset": 1477820,
+      "svcOffset": 1477820,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 44,
+      "immHex": "0x2c",
+      "entryOffset": 1477828,
+      "svcOffset": 1477828,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 45,
+      "immHex": "0x2d",
+      "entryOffset": 1477836,
+      "svcOffset": 1477836,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 47,
+      "immHex": "0x2f",
+      "entryOffset": 1477844,
+      "svcOffset": 1477852,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 50,
+      "immHex": "0x32",
+      "entryOffset": 1477900,
+      "svcOffset": 1477900,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 51,
+      "immHex": "0x33",
+      "entryOffset": 1477908,
+      "svcOffset": 1477908,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 52,
+      "immHex": "0x34",
+      "entryOffset": 1477916,
+      "svcOffset": 1477916,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 53,
+      "immHex": "0x35",
+      "entryOffset": 1477924,
+      "svcOffset": 1477924,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 54,
+      "immHex": "0x36",
+      "entryOffset": 1477932,
+      "svcOffset": 1477932,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 64,
+      "immHex": "0x40",
+      "entryOffset": 1478004,
+      "svcOffset": 1478008,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 65,
+      "immHex": "0x41",
+      "entryOffset": 1478036,
+      "svcOffset": 1478040,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 67,
+      "immHex": "0x43",
+      "entryOffset": 1478060,
+      "svcOffset": 1478064,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 68,
+      "immHex": "0x44",
+      "entryOffset": 1478084,
+      "svcOffset": 1478088,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 69,
+      "immHex": "0x45",
+      "entryOffset": 1478108,
+      "svcOffset": 1478112,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 72,
+      "immHex": "0x48",
+      "entryOffset": 1478140,
+      "svcOffset": 1478140,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 73,
+      "immHex": "0x49",
+      "entryOffset": 1478148,
+      "svcOffset": 1478148,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 75,
+      "immHex": "0x4b",
+      "entryOffset": 1477940,
+      "svcOffset": 1477944,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 80,
+      "immHex": "0x50",
+      "entryOffset": 1477964,
+      "svcOffset": 1477968,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 81,
+      "immHex": "0x51",
+      "entryOffset": 1477988,
+      "svcOffset": 1477988,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 82,
+      "immHex": "0x52",
+      "entryOffset": 1477996,
+      "svcOffset": 1477996,
+      "form": "svc;ret",
+      "returns": true
+    },
+    {
+      "imm": 112,
+      "immHex": "0x70",
+      "entryOffset": 1478156,
+      "svcOffset": 1478160,
+      "form": "multi",
+      "returns": true
+    },
+    {
+      "imm": 114,
+      "immHex": "0x72",
+      "entryOffset": 1478188,
+      "svcOffset": 1478192,
+      "form": "multi",
+      "returns": true
+    }
+  ]
+}

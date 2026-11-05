@@ -1,0 +1,162 @@
+{
+  "generatedFrom": "dump-0x68b4ca4000-20261103-090500.bin + scan",
+  "note": "Civ VII SDK offsets (this build). 'exact' = full ns2jb body matched; 'verified' = prologue/structure decoded and matched; 'lead' = strong inference, not yet byte-verified.",
+  "functions": [
+    {
+      "name": "current",
+      "offset": 1273936,
+      "confidence": "exact",
+      "note": "mrs tpidr_el0; ldr x0,[x8,#0x1f8]; ret"
+    },
+    {
+      "name": "tick",
+      "offset": 1274432,
+      "confidence": "exact"
+    },
+    {
+      "name": "frequency",
+      "offset": 1274480,
+      "confidence": "exact"
+    },
+    {
+      "name": "priority",
+      "offset": 1274048,
+      "confidence": "exact"
+    },
+    {
+      "name": "loadTable",
+      "offset": 319636,
+      "confidence": "exact"
+    },
+    {
+      "name": "saveResult",
+      "offset": 2673024,
+      "confidence": "exact"
+    },
+    {
+      "name": "saveResult64",
+      "offset": 1686720,
+      "confidence": "exact"
+    },
+    {
+      "name": "getService",
+      "offset": 1363088,
+      "confidence": "exact"
+    },
+    {
+      "name": "initialize",
+      "offset": 1254624,
+      "confidence": "exact",
+      "note": "event"
+    },
+    {
+      "name": "finalize",
+      "offset": 1254672,
+      "confidence": "exact",
+      "note": "event"
+    },
+    {
+      "name": "signal",
+      "offset": 1254688,
+      "confidence": "verified",
+      "note": "event: prologue matches ns2jb at +0x40 from initialize"
+    },
+    {
+      "name": "clear",
+      "offset": 1254976,
+      "confidence": "verified",
+      "note": "event: `add x8,x0,#4` matches ns2jb at +0x160 (anchor was 8 high)"
+    },
+    {
+      "name": "wait",
+      "offset": 1255040,
+      "confidence": "verified",
+      "note": "event: sub sp,#0x40 prologue matches ns2jb"
+    },
+    {
+      "name": "tryWait",
+      "offset": 1255392,
+      "confidence": "verified",
+      "note": "event: `ldrb w8,[x0,#0x11]` matches ns2jb at +0x300 (anchor was 8 high)"
+    },
+    {
+      "name": "longjmp",
+      "offset": 5575092,
+      "confidence": "verified",
+      "note": "ldp x19..x29 frame restore; matches ns2jb 48/64 bytes"
+    },
+    {
+      "name": "call4",
+      "offset": 3513224,
+      "confidence": "verified",
+      "note": "mov x0-x3 from x25/x21/x20/x19; ldr x8; blr x8"
+    },
+    {
+      "name": "memcpy",
+      "offset": 5383392,
+      "confidence": "lead",
+      "note": "core.js derives sdk_base = read64(main+0x4DC6088) - 0x5224E0"
+    },
+    {
+      "name": "close",
+      "offset": 1477604,
+      "confidence": "exact",
+      "note": "svc stub"
+    },
+    {
+      "name": "send",
+      "offset": 1477716,
+      "confidence": "exact",
+      "note": "svc stub"
+    },
+    {
+      "name": "waitAddress",
+      "offset": 1477916,
+      "confidence": "exact",
+      "note": "svc stub"
+    },
+    {
+      "name": "signalAddress",
+      "offset": 1477924,
+      "confidence": "exact",
+      "note": "svc stub"
+    },
+    {
+      "name": "setCurrentThread",
+      "offset": 1278168,
+      "confidence": "observed",
+      "note": "mrs tpidr_el0; str x0,[x8,#0x1f8]; bl 0x5EA880"
+    },
+    {
+      "name": "create",
+      "offset": 1301700,
+      "confidence": "lead",
+      "note": "thread-create helper: prologue sub sp,#0x50; calls svcCreateThread stub (0x168b2c) at +0x13DD14; args x0..x3"
+    },
+    {
+      "name": "exit",
+      "offset": 1302696,
+      "confidence": "lead",
+      "note": "calls svcExitThread stub (0x168b4c); nearby dead-loop after exit"
+    },
+    {
+      "name": "sleep",
+      "offset": 1303152,
+      "confidence": "lead",
+      "note": "tail-branches to svcSleepThread stub (0x168b54)"
+    }
+  ],
+  "unresolved": [
+    "join",
+    "tryWaitImplementation",
+    "memset",
+    "free",
+    "allocate",
+    "hash",
+    "sdk-proxy"
+  ],
+  "tls": {
+    "currentThreadSlot": 504,
+    "module": "tpidr_el0"
+  }
+}
